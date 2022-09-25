@@ -2,7 +2,8 @@ name: Docker-Image-Build-Publish
 on:
   push:
     branches:
-      - 'dev' , 'main'
+      - 'dev'  
+      - 'main'
     tags:
       - 'v*'
 
